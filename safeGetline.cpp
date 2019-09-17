@@ -1,3 +1,9 @@
+/*
+taken from 
+https://stackoverflow.com/questions/14539867/how-to-display-a-progress-indicator-in-pure-c-c-cout-printf
+*/
+
+
 std::istream& safeGetline(std::istream& is, std::string& t)
 {
     t.clear();
