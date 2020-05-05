@@ -62,3 +62,10 @@ std::istream& safeGetline(std::istream& is, std::string& t)
     }
 }
 ```
+### print 256 colour palette
+
+curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/ | bash
+
+![alt text][image]
+
+[image]: https://i.imgur.com/okBgrw4.png 
