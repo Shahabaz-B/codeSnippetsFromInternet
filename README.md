@@ -75,4 +75,19 @@ curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1
 ```
 size_t lastindex = fullname.find_last_of("."); 
 string rawname = fullname.substr(0, lastindex); 
+
+// other way to get file extension
+std::string getFileExtension(std::string filePath)
+{
+    // Find the last position of '.' in given string
+    std::size_t pos = filePath.rfind('.');
+    // If last '.' is found
+    if (pos != std::string::npos) {
+        // return the substring
+        return filePath.substr(pos);
+    }
+    // In case of no extension return empty string
+    return "";
+}
+
 ```
