@@ -1,5 +1,9 @@
 # codeSnippetsFromInternet
 
+### git commit undo and save changes
+https://stackoverflow.com/a/44415889
+
+
 ### ShallowCopy VS DeepCopy [src]((https://stackoverflow.com/a/184754))
 ```C++
 char * Source = "Hello, world.";
