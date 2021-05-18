@@ -1,5 +1,13 @@
 # codeSnippetsFromInternet
 
+### cmake shared libs with local path first
+
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC")
+set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -fPIC")
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath='$ORIGIN'")
+
+
 ### git commit undo and save changes
 https://stackoverflow.com/a/44415889
 
